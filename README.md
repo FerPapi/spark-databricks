@@ -19,17 +19,8 @@ Pipeline normally goes as follows:
 ```
 
 # Getting Started
-1.	Install dependencies (pip/anaconda) 
 
-`pip install -r requirements.txt`
-
-2.	Clone our Tardis repo and make it available as a package 
-
-`git clone https://transferoswiss@dev.azure.com/transferoswiss/Propdesk/_git/propdesk_tardis`
-
-3. Clone the Azure Services repo and make it available as a package
-
-`git clone https://transferoswiss@dev.azure.com/transferoswiss/Propdesk/_git/propdesk_azure_services`
+This is a demo repo that depends on many other internal libs
 
 # Running tests
 `python -m tests.estimators_unittest`
