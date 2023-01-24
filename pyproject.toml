@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "propdesk-estimators"
+version = "0.1.0"
+description = ""
+authors = ["ferpapi <fernando.papi@transferoswiss.ch>"]
+readme = "README.md"
+packages = [{include = "propdesk_estimators"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+propdesk-services = {path = "../propdesk_services", develop = true}
+pandarallel = "^1.6.2"
+fastparquet = "^0.8.1"
+pyarrow = "^9.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^3.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
